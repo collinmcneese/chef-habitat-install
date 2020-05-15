@@ -1,0 +1,13 @@
+name: 'Chef Habitat Install'
+author: 'Collin McNeese'
+description: 'Install Chef Habitat for pipeline usage'
+inputs:
+  version:
+    description: 'version to install, default is latest'
+    required: false
+runs:
+  using: 'node12'
+  main: 'index.js'
+branding:
+  icon: 'arrow-right-circle'
+  color: 'orange'

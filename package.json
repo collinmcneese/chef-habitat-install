@@ -1,0 +1,23 @@
+{
+  "name": "chef-habitat-install",
+  "version": "1.0.0",
+  "description": "[![CI State](https://github.com/collinmcneese/chef-habitat-install/workflows/release/badge.svg)](https://github.com/collinmcneese/chef-habitat-install)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collinmcneese/chef-habitat-install.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/collinmcneese/chef-habitat-install/issues"
+  },
+  "homepage": "https://github.com/collinmcneese/chef-habitat-install#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/exec": "^1.0.4"
+  }
+}
