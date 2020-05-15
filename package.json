@@ -4,7 +4,7 @@
   "description": "[![CI State](https://github.com/collinmcneese/chef-habitat-install/workflows/release/badge.svg)](https://github.com/collinmcneese/chef-habitat-install)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint --ignore-path .eslintignore ."
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
     "@actions/core": "^1.2.4",
     "@actions/exec": "^1.0.4",
     "os": "^0.1.1"
+  },
+  "devDependencies": {
+    "eslint-config-strongloop": "^2.1.0"
   }
 }
