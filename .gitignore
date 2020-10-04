@@ -1,6 +1,5 @@
 ## local project ##
 Vagrantfile
-package-lock.json
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,vagrant,windows,visualstudiocode,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,vagrant,windows,visualstudiocode,node
@@ -72,10 +71,6 @@ bower_components
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
-
-# Dependency directories
-node_modules/
-jspm_packages/
 
 # TypeScript v1 declaration files
 typings/
