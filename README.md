@@ -1,6 +1,6 @@
 # chef-habitat-install
 
-[![CI State](https://github.com/collinmcneese/chef-habitat-install/workflows/release/badge.svg)](https://github.com/collinmcneese/chef-habitat-install)
+![Node.js CI](https://github.com/collinmcneese/chef-habitat-install/workflows/Node.js%20CI/badge.svg)
 
 Install Chef Habitat for pipeline usage
 
