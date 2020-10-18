@@ -24,7 +24,7 @@ jobs:
     - name: Check out code
       uses: actions/checkout@master
     - name: install chef
-      uses: collinmcneese/chef-habitat-install@master
+      uses: collinmcneese/chef-habitat-install@main
 
   jobname2:
 
@@ -34,7 +34,7 @@ jobs:
     - name: Check out code
       uses: actions/checkout@master
     - name: install chef
-      uses: collinmcneese/chef-habitat-install@master
+      uses: collinmcneese/chef-habitat-install@main
  ```
 
 ## Envrionment Variables
