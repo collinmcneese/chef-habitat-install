@@ -19,7 +19,7 @@
   "dependencies": {
     "@actions/core": "^1.2.6",
     "@actions/exec": "^1.1.1",
-    "os": "^0.1.1"
+    "os": "^0.1.2"
   },
   "devDependencies": {
     "eslint-config-strongloop": "^2.1.0"
