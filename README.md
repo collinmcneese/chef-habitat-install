@@ -22,7 +22,7 @@ jobs:
 
     steps:
     - name: Check out code
-      uses: actions/checkout@master
+      uses: actions/checkout@main
     - name: install chef
       uses: collinmcneese/chef-habitat-install@master
 
@@ -32,7 +32,7 @@ jobs:
 
     steps:
     - name: Check out code
-      uses: actions/checkout@master
+      uses: actions/checkout@main
     - name: install chef
       uses: collinmcneese/chef-habitat-install@master
  ```
