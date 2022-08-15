@@ -6,7 +6,7 @@ inputs:
     description: 'version to install, default is latest'
     required: false
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'index.js'
 branding:
   icon: 'arrow-right-circle'
