@@ -1,4 +1,4 @@
-# chef-habitat-install
+# GitHub Action to Install Chef Habitat
 
 [![CI State](https://github.com/collinmcneese/chef-habitat-install/workflows/release/badge.svg)](https://github.com/collinmcneese/chef-habitat-install)
 
@@ -22,9 +22,9 @@ jobs:
 
     steps:
     - name: Check out code
-      uses: actions/checkout@main
+      uses: actions/checkout@v3
     - name: install chef
-      uses: collinmcneese/chef-habitat-install@master
+      uses: collinmcneese/chef-habitat-install@main
 
   jobname2:
 
@@ -32,9 +32,9 @@ jobs:
 
     steps:
     - name: Check out code
-      uses: actions/checkout@main
+      uses: actions/checkout@v3
     - name: install chef
-      uses: collinmcneese/chef-habitat-install@master
+      uses: collinmcneese/chef-habitat-install@main
  ```
 
 ## Envrionment Variables

@@ -1,6 +1,6 @@
 {
   "name": "chef-habitat-install",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "[![CI State](https://github.com/collinmcneese/chef-habitat-install/workflows/release/badge.svg)](https://github.com/collinmcneese/chef-habitat-install)",
   "main": "index.js",
   "scripts": {
